@@ -3,6 +3,7 @@ react 书签路由
 
 # 主要代码
 
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -22,6 +23,29 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+const all: Panes[] = [
+  {
+    title: "home",
+    key: "home",
+    content: <input defaultValue={"home"} />,
+  },
+  {
+    title: "Registration",
+    key: "Registration",
+    content: <input defaultValue={"Registration"} />,
+  },
+  {
+    title: "Contact-us",
+    key: "Contact-us",
+    content: "Contact-us",
+  },
+
+  {
+    title: "About",
+    key: "About",
+    content: "About",
+  },
+];
 
 function App() {
   const history = useHistory();
@@ -75,3 +99,6 @@ function App() {
     </div>
   );
 }
+```
+
+
