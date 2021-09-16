@@ -3,7 +3,7 @@ react 书签路由
 
 # 主要代码
 
-```js
+```ts
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
