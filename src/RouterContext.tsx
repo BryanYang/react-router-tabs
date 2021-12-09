@@ -12,6 +12,7 @@ export interface IRouterContext {
   location: Location;
   history: History;
   match?: Match;
+  updateMatch?: () => void;
 }
 
 const RouterContext = React.createContext<IRouterContext>({

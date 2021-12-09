@@ -5,6 +5,4 @@ declare module "tiny-invariant";
 
 
 
-declare module "tiny-warning";
-
 declare module "path-to-regexp";
